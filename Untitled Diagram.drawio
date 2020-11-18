@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T09:13:58.474Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="IqfTFY9JsMOxKJ7Ny0t3" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T09:16:45.554Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XdSnLpCApEGifYvVP18e" version="13.9.9" type="github">
   <diagram id="LvzQWpgkNb4uF6J24mG8" name="Page-1">
-    <mxGraphModel dx="2257" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2453" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,9 @@
           <mxGeometry y="26" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-28" value="NsAuthLoginService.cpp" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="770" y="380" width="370" height="66" as="geometry" />
+          <mxGeometry x="770" y="380" width="370" height="66" as="geometry">
+            <mxRectangle x="770" y="380" width="190" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-29" value="logout(requestId)&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;strokeWidth=3;" vertex="1" parent="22SVA37PeKxjYflp5q6W-28">
           <mxGeometry y="26" width="370" height="40" as="geometry" />
@@ -107,7 +109,9 @@
           <mxGeometry x="235" y="800" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-55" value="PlatformSocialNetworksImpl.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="205" y="580" width="210" height="66" as="geometry" />
+          <mxGeometry x="205" y="580" width="210" height="66" as="geometry">
+            <mxRectangle x="205" y="580" width="240" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-56" value="onActivityResult(requestCode, &#xa;resultCode, data)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;strokeWidth=3;" vertex="1" parent="22SVA37PeKxjYflp5q6W-55">
           <mxGeometry y="26" width="210" height="40" as="geometry" />
@@ -129,6 +133,14 @@
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-63" value="Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="550" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="22SVA37PeKxjYflp5q6W-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=14;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="22SVA37PeKxjYflp5q6W-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22SVA37PeKxjYflp5q6W-65" value="onError&lt;br&gt;" style="html=1;strokeWidth=3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="780" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

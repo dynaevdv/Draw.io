@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T09:02:16.512Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Tm7i8vJtQRvjKYMjk6aZ" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T09:11:11.379Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="IXaPnYmxMr5yBzwB3KF2" version="13.9.9" type="github">
   <diagram id="LvzQWpgkNb4uF6J24mG8" name="Page-1">
-    <mxGraphModel dx="1694" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2056" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="280" y="90" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-6" value="Core&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="620" y="90" width="40" height="20" as="geometry" />
+          <mxGeometry x="910" y="90" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-8" value="FB SDK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="90" height="40" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="22SVA37PeKxjYflp5q6W-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=20;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-200" y="120" as="sourcePoint" />
-            <mxPoint x="850" y="120" as="targetPoint" />
+            <mxPoint x="1240" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="22SVA37PeKxjYflp5q6W-11" target="22SVA37PeKxjYflp5q6W-20">
@@ -41,19 +41,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-19" value="AuthLoginService.cpp&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="143.5" width="410" height="56" as="geometry" />
+          <mxGeometry x="760" y="143.5" width="410" height="56" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-20" value="startLoginSocialNetworks(requestId, SocialNetworkType)&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="22SVA37PeKxjYflp5q6W-19">
           <mxGeometry y="26" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-23" value="NsAuthLoginService.cpp" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="270" width="370" height="66" as="geometry" />
+          <mxGeometry x="770" y="270" width="370" height="66" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-24" value="login(requestId, SocialNetworkType)&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="22SVA37PeKxjYflp5q6W-23">
           <mxGeometry y="26" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-28" value="NsAuthLoginService.cpp" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="380" width="370" height="66" as="geometry" />
+          <mxGeometry x="770" y="380" width="370" height="66" as="geometry" />
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-29" value="logout(requestId)&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="22SVA37PeKxjYflp5q6W-28">
           <mxGeometry y="26" width="370" height="40" as="geometry" />
@@ -120,6 +120,15 @@
         </mxCell>
         <mxCell id="22SVA37PeKxjYflp5q6W-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="22SVA37PeKxjYflp5q6W-56" target="22SVA37PeKxjYflp5q6W-60">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22SVA37PeKxjYflp5q6W-62" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="900" as="sourcePoint" />
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22SVA37PeKxjYflp5q6W-63" value="Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="550" y="90" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
